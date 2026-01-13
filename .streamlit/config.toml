@@ -1,0 +1,28 @@
+# .streamlit/config.toml
+
+[theme]
+# Thème de base (optionnel, "light" ou "dark")
+# base = "light" # Ou "dark" si vous préférez
+
+# Couleurs principales définies dans vos variables
+primaryColor = "#007BFF"
+backgroundColor = "#F8F9FA"
+secondaryBackgroundColor = "#E9ECEF"
+textColor = "#6C757D"
+font = "sans serif"
+
+[server]
+port = 8501
+headless = false
+enableCORS = true
+enableXsrfProtection = true
+fileWatcherType = "auto"
+
+[browser]
+gatherUsageStats = false
+
+[ui] # Nouvelle section pour l'interface utilisateur
+# Largeur de la barre latérale en pixels. La valeur par défaut est 210.
+# Vous pouvez l'augmenter ou la diminuer selon vos besoins.
+# sidebarWidth = 300 # Exemple : pour une barre latérale plus large
+sidebarWidth = 350 # Un peu plus large que la valeur par défaut
