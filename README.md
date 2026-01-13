@@ -1,4 +1,9 @@
 # Projet — Analyse simple de logs réseau
+![Python Version](https://img.shields.io/badge/python-3.9%2B-blue.svg)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
+![Repo Size](https://img.shields.io/github/repo-size/Lounadav/tp-gitignore-ciel)
+![Issues](https://img.shields.io/github/issues/Lounadav/tp-gitignore-ciel)
+![CyberSecurity](https://img.shields.io/badge/Focus-Cybersecurity-red.svg)
 
 Nom du dépôt GitHub : **`tp-gitignore-ciel`**
 
@@ -40,7 +45,24 @@ tp-gitignore-ciel/
 ├── requirements.txt
 └── README.md
 ```
+1er commit :
 
 [ ] `.venv` commité
+
 [ ] `__pycache__` présent
+
 [x] Pas de `.gitignore`
+
+2ème commit: 
+
+[X] `.venv` supprimé de Github
+
+[X] `__pycache__` supprimé de Github
+
+[x] Présence `.gitignore`
+
+3ème commit : 
+
+[X] `Read.me` modifié
+
+[X] Ajout de `Reponse.md`

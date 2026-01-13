@@ -14,6 +14,13 @@ Portabilité : Un dossier .venv créé sur Windows ne fonctionnera pas sur Linux
 
 Redondance : Ces fichiers sont éphémères. Ils peuvent être recréés à tout moment à partir du code source et du fichier requirements.txt.
 
+Pourquoi les fichiers sont-ils encore sur GitHub ?
+
+Même après avoir créé un .gitignore, les fichiers comme .venv/ ou __pycache__/ peuvent rester visibles sur le dépôt. Voici pourquoi :
+
+Le suivi  : Git ne prend en compte le .gitignore que pour les nouveaux fichiers. Si un fichier a déjà été validé (commité) une fois, Git continue de le suivre "par habitude".
+
+
 Quand créer le .gitignore ?
 
  Il doit être créé dès l'initialisation du projet (git init ou git clone). Cela permet d'éviter d'envoyer par erreur des fichiers lourds ou inutiles (comme .venv/ ou __pycache__/) dès le premier commit.
